@@ -1,0 +1,16 @@
+form MyForm {
+  section "User Info" {
+    field fullName: text;
+    field email: email;
+    field age: number;
+    field phoneNumber: number;
+    field gender: radio;
+    field address: textarea;
+    field interests: checkbox;
+    field dateOfBirth: date;
+    field maritalStatus: radio;
+    field country: select;
+    field password: password;
+    field profilePicture: file;
+  }
+}
